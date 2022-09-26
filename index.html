@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram feed bootstrap</title>
+    <script src="https://kit.fontawesome.com/d8de3ab053.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+</head>
+<body>
+                                <!--navbar-->
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+  <div class="container">
+
+                    
+                        <a class="navbar-brand" href="https://instagram.com">
+                        <i class="fa-brands fa-instagram" style="font-size: 30px;"></i>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/2560px-Instagram_logo.svg.png" alt="" width="120" height="100" class="d-inline-block align-top img-fluid" loading="lazy" >
+        
+                        </a>
+          
+                        <div class="navbar-nav">
+
+                        <!-- Button trigger modal -->
+<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Create a new Post
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">New Post </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="formcontroltextarea1"></label>
+            <textarea class="form-control border-dark" id="formcontroltextarea1" rows="2"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-success">Publish</button>
+      </div>
+    </div>
+    </div>
+    </div>
+                          <!--dropdown-->
+                        
+                          <div class="dropdown dropdown-menu-start">
+                            <a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="fa-solid fa-gear"></i>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item p-0" href="#">Action</a></li>
+                              <li><a class="dropdown-item p-0" href="#">Another action</a></li>
+                              <li><a class="dropdown-item p-0" href="#">Something else</a></li>
+                              <div class="dropdown-divider p-0"></div>
+                              <a class="dropdown-item" href="#">Log out </a>
+                            </ul>
+                          </div>
+                        </div>
+                        
+            </nav>
+
+            <!--pills plugin-->
+            <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
+                      role="tab" aria-controls="home" aria-selected="true"><i class="fa fa-th"
+                      aria-hidden="true"></i></button>
+              </li>
+              <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
+                      role="tab" aria-controls="profile" aria-selected="false"><i class="fa fa-square"
+                      aria-hidden="true"></i></button>
+              </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+
+                <div class="card-group">
+                  <div class="card">
+                    <img src="https://picsum.photos/id/237/400/300" class="card-img mx-2 my-2" alt="...">
+                 </div>
+                  <div class="card">
+                    <img src="https://picsum.photos/id/255/400/300" class="card-img mx-2 my-2" alt="...">
+                    
+                  </div>
+                  <div class="card">
+                    <img src="https://picsum.photos/id/1/400/300" class="card-img mx-2 my-2" alt="...">
+                  </div>
+                </div>
+        
+        
+        
+        
+                <div class="card-group">
+                  <div class="card">
+                    <img src="https://picsum.photos/id/7/400/300" class="card-img mx-2 my-2" alt="...">
+                 </div>
+                  <div class="card">
+                    <img src="https://picsum.photos/id/25/400/300" class="card-img mx-2 my-2" alt="...">
+                    
+                  </div>
+                  <div class="card">
+                    <img src="https://picsum.photos/id/23/400/300" class="card-img mx-2 my-2" alt="...">
+                  </div>
+                </div>
+        
+        
+        
+        
+        
+                <div class="card-group">
+                  <div class="card">
+                    <img src="https://picsum.photos/id/27/400/300" class="card-img mx-2 my-2" alt="...">
+                 </div>
+                  <div class="card ">
+                    <img src="https://picsum.photos/id/55/400/300" class="card-img mx-2 my-2" alt="...">
+                    
+                  </div>
+                  <div class="card">
+                    <img src="https://picsum.photos/id/2/400/300" class="card-img mx-2 my-2" alt="...">
+                  </div>
+                </div>
+             </div>
+             <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                
+              <!-- individual card feed -->
+ 
+              <div class="card m-auto mt-5" style="width: 55rem; height: 18rem;">
+                <div class="topic d-flex justify-content-between">
+                  <p class="topic-title">My Second Photo</p>
+                  <p class="topic-date">
+                      02/98
+                  </p>
+              </div>
+                <img src="https://picsum.photos/id/237/600/400" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">200 likes</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  
+                </div>
+
+
+
+                <div class="card m-auto mt-5" style="width: 55rem; height: 18rem;">
+                  <div class="topic d-flex justify-content-between">
+                    <p class="topic-title">My Second Photo</p>
+                    <p class="topic-date">
+                        02/98
+                    </p>
+                </div>
+                  <img src="https://picsum.photos/id/255/600/400" class="card-img-top mt-2" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">20 likes</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  
+                  </div>
+
+
+
+
+
+
+
+                  <div class="card m-auto mt-5" style="width: 55rem; height: 18rem;">
+                    <div class="topic d-flex justify-content-between">
+                      <p class="topic-title">My Second Photo</p>
+                      <p class="topic-date">
+                          02/98
+                      </p>
+                  </div>
+                    <img src="https://picsum.photos/id/1/600/400" class="card-img-top mt-2" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">54506960 likes</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                     
+                    </div>
+
+
+
+
+                    <div class="card m-auto mt-5" style="width: 55rem; height: 18rem;">
+                      <div class="topic d-flex justify-content-between mt-3">
+                        <p class="topic-title">My Second Photo</p>
+                        <p class="topic-date">
+                            02/98
+                        </p>
+                    </div>
+                      <img src="https://picsum.photos/id/7/600/400" class="card-img-top mt-2" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">13003040404 likes</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        
+                      </div>
+
+              
+
+
+              <div class="card m-auto mt-5" style="width: 55rem; height: 18rem;">
+                <div class="topic d-flex justify-content-between">
+                  <p class="topic-title">My Second Photo</p>
+                  <p class="topic-date">
+                      02/98
+                  </p>
+              </div>
+                <img src="https://picsum.photos/id/25/600/400" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">40 likes</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  
+                </div>
+
+
+
+                <div class="card m-auto mt-5" style="width: 55rem; height: 18rem;">
+                  <div class="topic d-flex justify-content-between">
+                    <p class="topic-title">My Second Photo</p>
+                    <p class="topic-date">
+                        02/98
+                    </p>
+                </div>
+                  <img src="https://picsum.photos/id/23/600/400" class="card-img-top mt-2" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">100 likes</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                   
+                  </div>
+
+
+
+                  <div class="card m-auto mt-5" style="width: 55rem; height: 18rem;">
+                    <div class="topic d-flex justify-content-between">
+                      <p class="topic-title">My Second Photo</p>
+                      <p class="topic-date">
+                          02/98
+                      </p>
+                  </div>
+                    <img src="https://picsum.photos/id/27/600/400" class="card-img-top mt-2" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">400 likes</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      
+                    </div>
+              
+
+                    <div class="card m-auto mt-5" style="width: 55rem; height: 18rem;">
+                      <div class="topic d-flex justify-content-between">
+                        <p class="topic-title">My Second Photo</p>
+                        <p class="topic-date">
+                            02/98
+                        </p>
+                    </div>
+                      <img src="https://picsum.photos/id/55/600/400" class="card-img-top mt-2" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">500 likes</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        
+                      </div>
+
+                      <div class="card m-auto mt-5" style="width: 55rem; height: 18rem;">
+                        <div class="topic d-flex justify-content-between">
+                          <p class="topic-title">My Second Photo</p>
+                          <p class="topic-date">
+                              02/98
+                          </p>
+                      </div>
+                        <img src="https://picsum.photos/id/2/600/400" class="card-img-top mt-2" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">1000000 likes</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        
+                        </div>
+
+
+
+
+
+             </div>
+             </div>
+              <!--Items stacked in 3 column image-->
+
+          
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+
+</html>
